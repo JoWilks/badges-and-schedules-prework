@@ -10,5 +10,6 @@ end
 
 def assign_rooms(name_array)
   name_array.each do |name| 
+    
     name_array.length<=7
 end
