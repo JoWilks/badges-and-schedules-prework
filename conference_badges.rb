@@ -9,7 +9,8 @@ def batch_badge_creator(name_array)
 end
 
 def assign_rooms(name_array)
-  name_array.each do |name| 
+  name_array.each_with_index { |name,index|
+  puts ""
     
     name_array.length<=7
 end
