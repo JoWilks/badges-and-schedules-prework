@@ -14,4 +14,6 @@ def assign_rooms(name_array)
   welcome_array
 end
 
-def printer
+def printer(badges, room_assignments)
+  
+end
