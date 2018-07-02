@@ -17,3 +17,8 @@ def assign_rooms(name_array)
   welcome<< "Hello, #{name}! You'll be assigned to room #{index}!" if index <= 7} 
   welcome
 end
+
+def printer(name_array)
+  puts batch_badge_creator(name_array)
+  puts assign_rooms
+end
