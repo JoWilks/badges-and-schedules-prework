@@ -9,6 +9,5 @@ def batch_badge_creator(name_array)
 end
 
 def assign_rooms(name_array)
-  for x in 1-7
-    "Hello"
+  name_array.each do |name| name_array.length<=7
 end
