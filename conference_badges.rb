@@ -19,10 +19,6 @@ def assign_rooms(name_array)
 end
 
 def printer(name_array)
-    name_array.each { |name| puts badge_maker(name) }
-      
-    name_array.each_with_index { |name,index|
-      index += 1
-      puts "Hello, #{name}! You'll be assigned to room #{index}!" if index <= 7} 
-    
+    batch_badge_creator(name_array).each { |name| puts name}
+    assign_rooms(name_array).each { |name| puts name}
 end
