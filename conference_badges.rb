@@ -13,3 +13,4 @@ def assign_rooms(name_array)
     
     name_array.length<=7
 end
+
