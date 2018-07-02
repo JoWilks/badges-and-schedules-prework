@@ -13,7 +13,7 @@ def assign_rooms(name_array)
     name_array.each_with_index {|name,index| 
     index += 1 
     welcome_array<< "Hello, #{name}! You'll be assigned to room #{index}!" 
-    if index <= 7} 
+    if index <= 7 
   welcome_array
 end
 
